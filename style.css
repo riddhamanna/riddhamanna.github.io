@@ -1,0 +1,79 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  a {
+    color: #80cbc4;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar */
+  header {
+    background: #1f1f1f;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .nav-links a {
+    font-weight: 500;
+  }
+  
+  /* Sections */
+  section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  section h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .project, .blog-post {
+    margin-top: 1.5rem;
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .blog-post h2 {
+    cursor: pointer;
+    color: #ffcc80;
+  }
+  .preview {
+    display: none;
+    margin-top: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }

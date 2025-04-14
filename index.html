@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riddha Manna</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Riddha Manna</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>Welcome! I'm a researcher interested in cognitive individuality, automated behavioral analysis, and Drosophila neuroscience.</p>
+    </section>
+
+    <section id="research">
+      <h1>Research & Projects</h1>
+      <div class="project">
+        <h2>High-Throughput Cognitive Phenotyping</h2>
+        <p>A collaborative robotics system to track individual learning behaviors across genetically diverse populations.</p>
+      </div>
+    </section>
+
+    <section id="cv">
+      <h1>CV</h1>
+      <p><a href="assets/pdfs/RiddhaManna_CV.pdf" target="_blank">Download my CV (PDF)</a></p>
+    </section>
+
+    <section id="blog">
+      <h1>Blog</h1>
+      <div class="blog-post">
+        <h2 onclick="togglePost(this)">On the Joy of Tinkering 🛠</h2>
+        <p class="preview">Thoughts on how building tools for your own research changes how you think about science...</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>Email me at <a href="mailto:riddha@example.com">riddha@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Riddha Manna</p>
+  </footer>
+</body>
+</html>
